@@ -66,10 +66,50 @@ if(pokemon === "Pikachu"){
 }
 
 
-let petName = "Loki";
-if(petName === "Murdock"){
-    console.log("He's the orange cat")
+// let petName = "Loki";
+// if(petName === "Murdock"){
+//     console.log("He's the orange cat")
+// }
+// else if(petName === "Loki"){
+//     console.log("Loki is gray");;
+// }
+
+let petName = "Rowdy";
+if(petName === "Murdock" || petName === "Loki"){
+    console.log("Meow")
 }
-else if(petName === "Loki"){
-    console.log("Loki is gray");;
+else{
+    console.log("That pet isn't one of my cats...");
+}
+
+
+// let userInput = prompt("Which football team is the best?");
+
+// if(userInput === "Bears"){
+//     alert("Da Bears");
+// }
+// else if(userInput !== "Eagles"){
+//     alert("That team's okay...");
+// }
+// else{
+//     alert("Go Birds")
+// }
+
+// switch/case
+
+let userInput = prompt("Enter a number between 1 and 4")
+
+switch(userInput){
+    case "1":
+        console.log("Attacking!");
+        break;
+    case "2":
+        console.log("Defending!");
+        break;
+    case "3":
+        console.log("Evading!");
+        break;
+    default:
+        console.log("Whoops, try again!");
+        break;
 }
