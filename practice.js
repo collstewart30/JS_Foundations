@@ -26,10 +26,50 @@ console.log(fullName)
 let myName = "Colleen";
 let yourName = "Logan";
 let areEqualNames = myName === yourName;
-console.log(areEqualNames)
+console.log(areEqualNames,"areEqualNames")
 
 // Logical operators
 
-let age = 16;
-let isTeenager = age >= 13 && age <= 19;
-console.log(isTeenager)
+// let age = 16;
+// let isTeenager = age >= 13 && age <= 19;
+// console.log(isTeenager)
+
+let cash = 20;
+let hasCreditCard = false;
+let price = 25;
+let canPurchase = cash >= price || hasCreditCard;
+console.log(canPurchase, "canPurchase")
+
+// multiple logical checks to create more complicated and restrictive operations
+
+let age = 15;
+let hasLearnersPermit = true;
+let isWithParent = true;
+let canDrive = age >= 16 || (hasLearnersPermit && isWithParent && age >= 15);
+console.log(canDrive, "canDrive")
+
+// ! returns the opposite value
+
+let isStudent = false;
+console.log("isStudent, ", isStudent);
+isStudent = !isStudent;
+console.log("!isStudent, ",isStudent);
+console.log(!isStudent, "console.log(!isStudent)")
+
+
+// Conditionals
+
+let pokemon;
+pokemon = "Pikachu";
+if(pokemon === "Pikachu"){
+    console.log("Pikachu, I choose you!")
+}
+
+
+let petName = "Loki";
+if(petName === "Murdock"){
+    console.log("He's the orange cat")
+}
+else if(petName === "Loki"){
+    console.log("Loki is gray");;
+}
