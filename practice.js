@@ -115,6 +115,7 @@ else{
 // }
 
 
+// Loops
 
 let revenue = 1000;
 if(revenue >= 500){
@@ -172,4 +173,15 @@ while(continueIteration === true){
 }
 
 
+// Functions
 
+function addTwuNumbers(one, two){
+    let result = one + two;
+    return result;
+}
+
+let result = addTwuNumbers(900, 76)
+console.log(result)
+
+let resultTwo = addTwuNumbers(234,839042)
+console.log(resultTwo)

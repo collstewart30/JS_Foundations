@@ -28,8 +28,37 @@
 //     console.log(i)
 // }
 
-let word = prompt("Type a word")
+// let word = prompt("Type a word")
 
-for(let i = 0; i < word.length; i++){
-    console.log(word[i])
+// for(let i = 0; i < word.length; i++){
+//     console.log(word[i])
+// }
+
+
+// Functions
+
+function addTwoNumbers(one, two){
+    let result = one + two;
+    return result;
 }
+
+function subtractTwoNumbers(one, two){
+    let result = one - two;
+    return result;
+}
+
+function threeNumbers(one, two, three){
+    let result = (one * two)/three;
+    return result;
+}
+
+function runCalculations(){
+    let sum = addTwoNumbers(54, 67);
+    console.log(sum);
+    let diff = subtractTwoNumbers(7, 4);
+    console.log(diff);
+    let third = threeNumbers(5, 7, 2);
+    console.log(third)
+}
+
+runCalculations();
