@@ -145,6 +145,31 @@ switch(bestFootballTeam){
         break;
 }
 
-for(let i = 0; i < 10; i ++){
-    console.log(i)
+// for(let i = 0; i < 10; i ++){
+//     console.log(i)
+// }
+
+// let counter = 1;
+// while(counter <6 ){
+//     console.log("The counter is at "+ counter);
+//     counter ++
+// }
+
+
+let favoriteNumber = 3;
+let counterTwo = 0;
+let continueIteration = true;
+
+while(continueIteration === true){
+    if(counterTwo === favoriteNumber){
+        console.log("we found my favorite number")
+        continueIteration = false;
+    }
+    else{
+        console.log(counterTwo);
+        counterTwo++;
+    }
 }
+
+
+
