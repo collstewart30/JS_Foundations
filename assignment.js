@@ -37,28 +37,49 @@
 
 // Functions
 
-function addTwoNumbers(one, two){
-    let result = one + two;
-    return result;
+// function addTwoNumbers(one, two){
+//     let result = one + two;
+//     return result;
+// }
+
+// function subtractTwoNumbers(one, two){
+//     let result = one - two;
+//     return result;
+// }
+
+// function threeNumbers(one, two, three){
+//     let result = (one * two)/three;
+//     return result;
+// }
+
+// function runCalculations(){
+//     let sum = addTwoNumbers(54, 67);
+//     console.log(sum);
+//     let diff = subtractTwoNumbers(7, 4);
+//     console.log(diff);
+//     let third = threeNumbers(5, 7, 2);
+//     console.log(third)
+// }
+
+// runCalculations();
+
+
+// Arrays
+// this function should add up all of the odd numbers in the array for a "grand total", and return that total
+function array(array){
+    variable = 0
+    for(let index = 0; index < array.length; index ++){
+        if(array[index] % 2 == 0){
+            
+        }
+        else{
+            variable += array[index]
+        }
+    }
+    console.log(variable);
+    return variable;
 }
 
-function subtractTwoNumbers(one, two){
-    let result = one - two;
-    return result;
-}
+let arrayTest = [6, 7, 13, 14, 15]
 
-function threeNumbers(one, two, three){
-    let result = (one * two)/three;
-    return result;
-}
-
-function runCalculations(){
-    let sum = addTwoNumbers(54, 67);
-    console.log(sum);
-    let diff = subtractTwoNumbers(7, 4);
-    console.log(diff);
-    let third = threeNumbers(5, 7, 2);
-    console.log(third)
-}
-
-runCalculations();
+array(arrayTest)

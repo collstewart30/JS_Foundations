@@ -185,3 +185,25 @@ console.log(result)
 
 let resultTwo = addTwuNumbers(234,839042)
 console.log(resultTwo)
+
+
+// Arrays
+
+// for loops to iterate through array
+
+let colors = ['Red', 'Blue', 'Green']
+
+for(let index = 0; index < colors.length; index ++){
+    if(colors[index] === 'Blue'){
+        console.log("We found Blue");
+    }
+    else{
+        console.log("it was not Blue");
+    }
+}
+
+let programmingLanguages = ['JS', 'C#'];
+programmingLanguages.push('Java');
+programmingLanguages[8] = 'Swift';
+
+let capturedResult = programmingLanguages.pop();
